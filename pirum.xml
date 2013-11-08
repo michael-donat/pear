@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+<name>thornag.github.com/pear</name>
+<summary>thornags's PEAR Channel Server</summary>
+<alias>thornag</alias>
+<url>http://thornag.github.com/pear</url>
+</server>
