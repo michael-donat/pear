@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/virtualfilesystem">VirtualFileSystem</p>
+    <c>pear.michaeldonat.net</c>
+    <v>0.3.2</v>
+    <st>stable</st>
+    <l>GPL3+</l>
+    <m>thornag</m>
+    <s>php-vfs is a simple filesystem mocking library</s>
+    <d>php-vfs is a simple filesystem mocking library</d>
+    <da>2013-11-08 23:09:59</da>
+    <n>
+-
+ </n>
+    <f>23274</f>
+    <g>http://pear.michaeldonat.net/get/VirtualFileSystem-0.3.2</g>
+    <x xlink:href="package.0.3.2.xml"/>
+</r>
