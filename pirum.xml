@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <server>
-<name>thornag.github.com/pear</name>
-<summary>thornags's PEAR Channel Server</summary>
+<name>pear.michaeldonat.net</name>
+<summary>PEAR Channel @ Michael Donat</summary>
 <alias>thornag</alias>
-<url>http://thornag.github.com/pear</url>
+<url>http://pear.michaeldonat.net</url>
 </server>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://thornag.github.com/pear</id>
-    <updated>2013-11-08T17:04:44+00:00</updated>
-    <title>thornags's PEAR Channel Server Latest Releases</title>
-    <link href="http://thornag.github.com/pear/feed.xml" rel="self" />
+    <id>http://pear.michaeldonat.net</id>
+    <updated>2013-11-08T21:23:10+00:00</updated>
+    <title>PEAR Channel @ Michael Donat Latest Releases</title>
+    <link href="http://pear.michaeldonat.net/feed.xml" rel="self" />
     <author>
-        <name>http://thornag.github.com/pear</name>
+        <name>http://pear.michaeldonat.net</name>
     </author>
 
 
