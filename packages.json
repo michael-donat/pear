@@ -1,6 +1,31 @@
 {
     "pear-thornag\/VirtualFileSystem": {
         "versions": {
+            "1.0.0": {
+                "name": "pear-thornag\/VirtualFileSystem",
+                "description": "php-vfs is a simple filesystem mocking library",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.michaeldonat.net\/get\/VirtualFileSystem-1.0.0.tgz"
+                },
+                "version": "1.0.0",
+                "time": "2013-11-15T20:23:51+00:00",
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "authors": [
+                    {
+                        "name": "Michael Donat",
+                        "email": "michael.donat@me.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/VirtualFileSystem"
+                    ]
+                }
+            },
             "0.3.2": {
                 "name": "pear-thornag\/VirtualFileSystem",
                 "description": "php-vfs is a simple filesystem mocking library",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.michaeldonat.net</id>
-    <updated>2013-11-09T09:24:58+00:00</updated>
+    <updated>2013-11-15T20:24:45+00:00</updated>
     <title>PEAR Channel @ Michael Donat Latest Releases</title>
     <link href="http://pear.michaeldonat.net/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,20 @@
     </author>
 
     <entry>
+        <title>VirtualFileSystem 1.0.0 (stable)</title>
+        <link href="http://pear.michaeldonat.net/get/VirtualFileSystem-1.0.0.tgz" />
+        <id>http://pear.michaeldonat.net/get/VirtualFileSystem-1.0.0.tgz</id>
+        <author>
+            <name>thornag</name>
+        </author>
+        <updated>2013-11-15T20:23:51+00:00</updated>
+        <content>
+            php-vfs is a simple filesystem mocking library
+            
+-
+ 
+        </content>
+    </entry>    <entry>
         <title>VirtualFileSystem 0.3.2 (stable)</title>
         <link href="http://pear.michaeldonat.net/get/VirtualFileSystem-0.3.2.tgz" />
         <id>http://pear.michaeldonat.net/get/VirtualFileSystem-0.3.2.tgz</id>
