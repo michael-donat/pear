@@ -1,8 +1,8 @@
 {
-    "pear-thornag\/VirtualFileSystem": {
+    "pear-michaeldonat\/VirtualFileSystem": {
         "versions": {
             "1.0.0": {
-                "name": "pear-thornag\/VirtualFileSystem",
+                "name": "pear-michaeldonat\/VirtualFileSystem",
                 "description": "php-vfs is a simple filesystem mocking library",
                 "dist": {
                     "type": "pear",
@@ -27,7 +27,7 @@
                 }
             },
             "0.3.2": {
-                "name": "pear-thornag\/VirtualFileSystem",
+                "name": "pear-michaeldonat\/VirtualFileSystem",
                 "description": "php-vfs is a simple filesystem mocking library",
                 "dist": {
                     "type": "pear",
@@ -52,7 +52,7 @@
                 }
             }
         },
-        "name": "pear-thornag\/VirtualFileSystem",
+        "name": "pear-michaeldonat\/VirtualFileSystem",
         "description": "php-vfs is a simple filesystem mocking library",
         "maintainers": [
             {
