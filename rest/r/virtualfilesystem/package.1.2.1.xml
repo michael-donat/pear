@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0         http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>VirtualFileSystem</name>
+ <channel>pear.michaeldonat.net</channel>
+ <summary>php-vfs is a simple filesystem mocking library</summary>
+ <description>php-vfs is a simple filesystem mocking library</description>
+ <lead>
+  <name>Michael Donat</name>
+  <user>thornag</user>
+  <email>michael.donat@me.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2014-09-13</date>
+ <time>13:25:00</time>
+ <version>
+  <release>1.2.1</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://opensource.org/licenses/GPL-3.0">GPL3+</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="d6ad1aa6373f237757daeed5230a59dd" name="src/VirtualFileSystem/Structure/Directory.php" role="php" />
+   <file baseinstalldir="/" md5sum="aa8d05242a8c4199807627ac6012747e" name="src/VirtualFileSystem/Structure/File.php" role="php" />
+   <file baseinstalldir="/" md5sum="421a26ef5ac4469b6992b60294272a4f" name="src/VirtualFileSystem/Structure/Link.php" role="php" />
+   <file baseinstalldir="/" md5sum="1a6a3e4e9058d8c6e20905cdf4e237fc" name="src/VirtualFileSystem/Structure/Node.php" role="php" />
+   <file baseinstalldir="/" md5sum="591033fab4636bcff67fd17c27c6487f" name="src/VirtualFileSystem/Structure/Root.php" role="php" />
+   <file baseinstalldir="/" md5sum="92c480949103cc4c386ed8c594fe53e8" name="src/VirtualFileSystem/Wrapper/DirectoryHandler.php" role="php" />
+   <file baseinstalldir="/" md5sum="94eabdaa6fc0da142f2c9e3883ee3b94" name="src/VirtualFileSystem/Wrapper/FileHandler.php" role="php" />
+   <file baseinstalldir="/" md5sum="13be53565727a862e07db5a97724a2ed" name="src/VirtualFileSystem/Wrapper/PermissionHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="d31e6dd7f42808d8db5586c2b7622d50" name="src/VirtualFileSystem/Container.php" role="php" />
+   <file baseinstalldir="/" md5sum="b98cbfdee3b329f9d67f2a5e7981f5ff" name="src/VirtualFileSystem/Factory.php" role="php" />
+   <file baseinstalldir="/" md5sum="3fe211eed7b1d142f288aff8bf96da1a" name="src/VirtualFileSystem/FileExistsException.php" role="php" />
+   <file baseinstalldir="/" md5sum="ac2ded4bca39a7e35f61349914615d4b" name="src/VirtualFileSystem/FileSystem.php" role="php" />
+   <file baseinstalldir="/" md5sum="9d68c87ba58eaa27ccc46bbb91e03ef4" name="src/VirtualFileSystem/Loader.php" role="php" />
+   <file baseinstalldir="/" md5sum="9b38bc724a0e2d039310429d97f76aaa" name="src/VirtualFileSystem/NotDirectoryException.php" role="php" />
+   <file baseinstalldir="/" md5sum="a5be635e7debda40daa38be61be0b427" name="src/VirtualFileSystem/NotFileException.php" role="php" />
+   <file baseinstalldir="/" md5sum="54d36dfafc939fae825ea4145e535cf7" name="src/VirtualFileSystem/NotFoundException.php" role="php" />
+   <file baseinstalldir="/" md5sum="d92c24e26b65e67f7b1d6f2ecd6e9dd4" name="src/VirtualFileSystem/Wrapper.php" role="php" />
+   <file baseinstalldir="/" md5sum="8aab2037d6ccded90e5a3a3849bc60dc" name="LICENCE" role="doc" />
+   <file baseinstalldir="/" md5sum="12fe9f92cf7509a6ce14e03943aa2058" name="README.md" role="doc" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="CONTRIBUTORS.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.4.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="VirtualFileSystem/Container.php" name="src/VirtualFileSystem/Container.php" />
+   <install as="VirtualFileSystem/Factory.php" name="src/VirtualFileSystem/Factory.php" />
+   <install as="VirtualFileSystem/FileExistsException.php" name="src/VirtualFileSystem/FileExistsException.php" />
+   <install as="VirtualFileSystem/FileSystem.php" name="src/VirtualFileSystem/FileSystem.php" />
+   <install as="VirtualFileSystem/Loader.php" name="src/VirtualFileSystem/Loader.php" />
+   <install as="VirtualFileSystem/NotDirectoryException.php" name="src/VirtualFileSystem/NotDirectoryException.php" />
+   <install as="VirtualFileSystem/NotFileException.php" name="src/VirtualFileSystem/NotFileException.php" />
+   <install as="VirtualFileSystem/NotFoundException.php" name="src/VirtualFileSystem/NotFoundException.php" />
+   <install as="VirtualFileSystem/Structure/Directory.php" name="src/VirtualFileSystem/Structure/Directory.php" />
+   <install as="VirtualFileSystem/Structure/File.php" name="src/VirtualFileSystem/Structure/File.php" />
+   <install as="VirtualFileSystem/Structure/Link.php" name="src/VirtualFileSystem/Structure/Link.php" />
+   <install as="VirtualFileSystem/Structure/Node.php" name="src/VirtualFileSystem/Structure/Node.php" />
+   <install as="VirtualFileSystem/Structure/Root.php" name="src/VirtualFileSystem/Structure/Root.php" />
+   <install as="VirtualFileSystem/Wrapper/DirectoryHandler.php" name="src/VirtualFileSystem/Wrapper/DirectoryHandler.php" />
+   <install as="VirtualFileSystem/Wrapper/FileHandler.php" name="src/VirtualFileSystem/Wrapper/FileHandler.php" />
+   <install as="VirtualFileSystem/Wrapper/PermissionHelper.php" name="src/VirtualFileSystem/Wrapper/PermissionHelper.php" />
+   <install as="VirtualFileSystem/Wrapper.php" name="src/VirtualFileSystem/Wrapper.php" />
+  </filelist>
+ </phprelease>
+</package>
