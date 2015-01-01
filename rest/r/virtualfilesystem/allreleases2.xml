@@ -3,6 +3,11 @@
     <p>VirtualFileSystem</p>
     <c>pear.michaeldonat.net</c>
     <r>
+        <v>1.2.3</v>
+        <s>stable</s>
+        <m>5.4.0</m>
+    </r>
+    <r>
         <v>1.2.2</v>
         <s>stable</s>
         <m>5.4.0</m>
